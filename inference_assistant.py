@@ -9,7 +9,7 @@ from exportChat import export_chat
 def inference(id_assistente):
     if "msg_bot" not in st.session_state:
         st.session_state.msg_bot = []
-        st.session_state.msg_bot.append("Hi🤗, I'm your assistant. How can I help you?")
+        st.session_state.msg_bot.append("Hi🤗, I'm your assistant. Gliding Technical Knowledge Bot, your specialized assistant for all things related to gliding, with a focus on specific glider models such as the Schleicher ASK 21, B1-PW-5, Schneider LS4a, PW6, and ASK 13. Just ask you question of say Hi")
         st.session_state.msg = []
         
         try :
