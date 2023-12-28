@@ -25,7 +25,7 @@ st.title("Glidding technical assistant !")
 
 
 
-openaiKey = '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'
+openaiKey = ''
 id_assistente = 'asst_axrsu71yTNAXbzyf1Nv1EJ59'
 
 if openaiKey:
