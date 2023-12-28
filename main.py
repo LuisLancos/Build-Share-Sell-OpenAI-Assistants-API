@@ -25,7 +25,7 @@ st.title("Glidding technical assistant !")
 
 
 
-openaiKey = st.secrets["openai_api_key"]
+openaiKey = st.secrets["OPENAI_API_KEY"]
 id_assistente = 'asst_axrsu71yTNAXbzyf1Nv1EJ59'
 
 if openaiKey:
